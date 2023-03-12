@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Hanken Grotesk;
+  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+
+:root {
+  font-family: Hanken Grotesk;
+  font-weight: 500;
+  font-size: 18px;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
